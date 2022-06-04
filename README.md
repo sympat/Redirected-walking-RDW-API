@@ -5,6 +5,7 @@ RDW API는 Unity를 통해서 가상 현실 보행 기법인 Redirected walking�
 * 자신이 제안한 새로운 Redirection 혹은 Reset algorithm을 쉽게 추가 및 교체
 * Single User가 아닌 2명 이상의 Multi user를 지원
 * Simulation 과정 시각화
+* 다양한 형태의 가상 환경에서의 Simulation 가능 (장애물 존재 등)
 * 그 외 python의 시각화 및 통계 tool과 연계 및 ML-agents를 통한 강화 학습 기반 Redirection algorithm 추가를 구현중
 
 # Requirement
