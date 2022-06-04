@@ -14,18 +14,18 @@ Because locomotion in virtual reality affects a user’s experience, various res
 4. 해당 scene을 실행한다.
 
 # RDWSimulationManager Options
-* Simulation Setting
+* **Simulation Setting**
   + Use Visualization : simulation 과정을 시각화할지 결정
   + Use Debug Mode: 각 object들의 외곽선이나 user의 경로 등을 시각화할지 결정
   + Use Continuous Simulation: 
-* Prefab Setting: 실험에 사용될 Prefab들을 지정
-* (Real/Virutal) Space Setting
+* **Prefab Setting**: 실험에 사용될 Prefab들을 지정
+* **(Real/Virutal) Space Setting**
   + Use Predefinded Space: 미리 정의된 Space를 사용할지 결정
   + Name: Space 객체의 이름
   + Predefined Space: 사용할 Space 객체
   + Position: Space 객체의 위치
   + Rotation: Space 객체의 회전 값
-* Unit Setting
+* **Unit Setting**
   + Redirect Type: 적용할 Redirection algorithm 종류
   + Reset Type: 적용할 Reset algorithm 종류
   + Episode Type: 사용하고자 하는 Episode 종류
@@ -41,4 +41,3 @@ Because locomotion in virtual reality affects a user’s experience, various res
 이 외의 옵션들은 아직 개발 중이며, 해당 옵션을 조절할 시 정상적으로 작동되지 않을 가능성이 있으니 주의.
 
 # Class hierachy
-![Alt text](/path/to/img.jpg)
