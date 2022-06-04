@@ -4,8 +4,8 @@ This is redirected walking API for our lab.
 Because locomotion in virtual reality affects a user’s experience, various researches have studied locomotion techniques to provide a realistic experience. Among the locomotion techniques, actual walking induces higher immersion and natural and effective exploration for users. ReDirected Walking (RDW) has been studied as a technique that can overcome the difference between virtual and real space to explore a virtual environment through real walking. In particular, much research has been done on finely manipulating the user’s scene in a range that the user is unaware of.
 
 # Requirement
-Unity 2019.4.10+
-Unity [ML Agents](https://github.com/Unity-Technologies/ml-agents) package 1.6+
++ Unity 2019.4.10+
++ Unity [ML Agents](https://github.com/Unity-Technologies/ml-agents) package 1.6+
 
 # How to use
 1. Unity project 를 생성한 뒤에, project 폴더 하위에 있는 Assets 폴더에 위의 파일들을 추가해준다.
@@ -18,7 +18,7 @@ Unity [ML Agents](https://github.com/Unity-Technologies/ml-agents) package 1.6+
   + Use Visualization : simulation 과정을 시각화할지 결정
   + Use Debug Mode: 각 object들의 외곽선이나 user의 경로 등을 시각화할지 결정
   + Use Continuous Simulation: 
-* Prefab Setting
+* Prefab Setting: 실험에 사용될 Prefab들을 지정
 * (Real/Virutal) Space Setting
   + Use Predefinded Space: 미리 정의된 Space를 사용할지 결정
   + Name: Space 객체의 이름
@@ -41,3 +41,4 @@ Unity [ML Agents](https://github.com/Unity-Technologies/ml-agents) package 1.6+
 이 외의 옵션들은 아직 개발 중이며, 해당 옵션을 조절할 시 정상적으로 작동되지 않을 가능성이 있으니 주의.
 
 # Class hierachy
+![Alt text](/path/to/img.jpg)
