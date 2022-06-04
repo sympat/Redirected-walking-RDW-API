@@ -8,4 +8,5 @@ Unity 2019.4.10+
 Unity [ML Agents](https://github.com/Unity-Technologies/ml-agents) package 1.6+
 
 # How to use
+Unity project 를 생성한 뒤에, project 폴더 하위에 있는 Assets 폴더에 위의 파일들을 추가해준다.
 
