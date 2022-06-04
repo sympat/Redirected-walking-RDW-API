@@ -38,4 +38,5 @@ Because locomotion in virtual reality affects a user’s experience, various res
 
 이 외의 옵션들은 아직 개발 중이며, 해당 옵션을 조절할 시 정상적으로 작동되지 않을 가능성이 있으니 주의.
 
-# Class hierachy
+# Class Diagram
+[See here](/Class%20Diagram%20for%20RDW%20API.pdf)
