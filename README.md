@@ -15,9 +15,7 @@ Because locomotion in virtual reality affects a user’s experience, various res
 
 # RDWSimulationManager Options
 * **Simulation Setting**
-  + Use Visualization : simulation 과정을 시각화할지 결정
   + Use Debug Mode: 각 object들의 외곽선이나 user의 경로 등을 시각화할지 결정
-  + Use Continuous Simulation: 
 * **Prefab Setting**: 실험에 사용될 Prefab들을 지정
 * **(Real/Virutal) Space Setting**
   + Use Predefinded Space: 미리 정의된 Space를 사용할지 결정
