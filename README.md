@@ -1,7 +1,10 @@
 # Redirected-walking-RDW-API
-This is redirected walking API for our lab.
-
-Because locomotion in virtual reality affects a user’s experience, various researches have studied locomotion techniques to provide a realistic experience. Among the locomotion techniques, actual walking induces higher immersion and natural and effective exploration for users. ReDirected Walking (RDW) has been studied as a technique that can overcome the difference between virtual and real space to explore a virtual environment through real walking. In particular, much research has been done on finely manipulating the user’s scene in a range that the user is unaware of.
+Redirected walking는 사용자가 좁은 실제 공간과 충돌하지 않으면서 넓은 가상 공간을 실제로 걸어서 탐험할 수 있도록 사용자 동작을 조작하는 기법을 말한다.
+RDW API는 Unity를 통해서 가상 현실 보행 기법인 Redirected walking을 보다 더 쉽게 simulation 하기 위해 만들어졌다. 해당 API의 특징은 다음과 같다.
+* 가상 현실 보행 분야에서 많이 사용되고 있는 Steer-to-Center (S2C) 를 탑재
+* S2OT, S2MT, SRL 등 다양한 Redirection algorithm을 쉽게 추가할 수 있도록 구현 중
+* Single User가 아닌 2명 이상의 Multi user를 지원
+* Simulation 과정 시각화
 
 # Requirement
 + Unity 2019.4.10+
@@ -36,7 +39,7 @@ Because locomotion in virtual reality affects a user’s experience, various res
   + Translation Speed: user의 이동 속도
   + Rotation Speed: user의 회전 속도
 
-이 외의 옵션들은 아직 개발 중이며, 해당 옵션을 조절할 시 정상적으로 작동되지 않을 가능성이 있으니 주의.
+이 외의 옵션들은 개발 중이며, 해당 옵션을 조절할 시 정상적으로 작동되지 않을 가능성이 있으니 주의.
 
 # Class Diagram
 [See here](/Class%20Diagram%20for%20RDW%20API.pdf)
