@@ -51,4 +51,12 @@ RDW API는 Unity를 통해서 가상 현실 보행 기법인 Redirected walking�
 이 외의 옵션들은 개발 중이며, 해당 옵션을 조절할 시 정상적으로 작동되지 않을 가능성이 있으니 주의.
 
 # Class Diagram
-[See here](/Class%20Diagram%20for%20RDW%20API.pdf)
+
+<!-- [See here](/Class%20Diagram%20for%20RDW%20API.pdf) -->
+
+<p align="center">
+  <img 
+    width="100%"
+    src="/Class%20Diagram%20for%20RDW%20API.gif"
+  >
+</p>
