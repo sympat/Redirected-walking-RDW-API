@@ -52,11 +52,4 @@ RDW API는 Unity를 통해서 가상 현실 보행 기법인 Redirected walking�
 
 # Class Diagram
 
-<!-- [See here](/Class%20Diagram%20for%20RDW%20API.pdf) -->
-
-<p align="center">
-  <img 
-    width="100%"
-    src="/Class%20Diagram%20for%20RDW%20API.gif"
-  >
-</p>
+[See here](/Class%20Diagram%20for%20RDW%20API.pdf)
