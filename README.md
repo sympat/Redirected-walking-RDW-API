@@ -1,6 +1,6 @@
 # Redirected-walking-RDW-API
 Redirected walking는 사용자가 좁은 실제 공간과 충돌하지 않으면서 넓은 가상 공간을 실제로 걸어서 탐험할 수 있도록 사용자 동작을 조작하는 기법을 말한다.
-RDW API는 Unity를 통해서 가상 현실 보행 기법인 Redirected walking을 보다 더 쉽게 simulation 하기 위해 만들어졌다. 해당 API의 특징은 다음과 같다.
+RDW API는 Unity를 통해서 가상 현실 보행 기법인 Redirected walking을 Unity3D 위에서 보다 더 쉽게 simulation 하기 위해 만들어졌다. 해당 API의 특징은 다음과 같다.
 * 가상 현실 보행 분야에서 많이 사용되고 있는 Steer-to-Center (S2C) 를 탑재
 * 자신이 제안한 새로운 Redirection 혹은 Reset algorithm을 쉽게 추가 및 교체
 * Single User가 아닌 2명 이상의 Multi user를 지원
