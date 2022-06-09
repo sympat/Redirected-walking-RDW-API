@@ -4,12 +4,12 @@
 Redirected walking (RDW)는 사용자가 좁은 실제 공간과 충돌하지 않으면서 넓은 가상 공간을 실제로 걸어서 탐험할 수 있도록 사용자 동작을 조작하는 기법을 말한다. 구체적으로 RDW는 사용자가 해당 기법에 적용되었는지를 인식 했냐에 따라서 subtle 방식 (Redirection) 과 overt 방식 (Reset)으로 나뉘며, 각 기법마다 서로 장단점이 존재하기 때문에 최근까지 연구된 대부분의 이론에서는 두 기법을 섞어서 사용하고 있다. 
 
 RDW API는 Unity를 통해서 가상 현실 보행 기법인 Redirected walking을 Unity3D 위에서 보다 더 쉽게 simulation 하기 위해 만들어졌다. 해당 API의 특징은 다음과 같다.
-* 가상 현실 보행 분야에서 많이 사용되고 있는 Steer-to-Center (S2C) 를 탑재
+* Redirection 분야에서 많이 사용되고 있는 Steer-to-Center (S2C) 를 탑재
 * 자신이 제안한 새로운 Redirection 혹은 Reset algorithm을 쉽게 추가 및 교체
 * Single User가 아닌 2명 이상의 Multi user를 지원
 * Simulation 과정 시각화
 * 다양한 형태의 가상 환경에서의 Simulation 가능 (장애물 존재 등)
-* 그 외 python의 시각화 및 통계 tool과 연계 및 ML-agents를 통한 강화 학습 기반 Redirection algorithm 추가가 가능하도록 구현중
+* 그 외 python의 시각화 및 통계 tool과 연계 및 ML-agents를 통한 강화 학습 기반 Redirection algorithm (SRL 등) 추가가 가능하도록 구현중
 
 <p align="center">
   <img 
