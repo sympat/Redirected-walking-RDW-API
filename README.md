@@ -51,5 +51,6 @@ RDW API는 Unity를 통해서 가상 현실 보행 기법인 Redirected walking�
 이 외의 옵션들은 개발 중이며, 해당 옵션을 조절할 시 정상적으로 작동되지 않을 가능성이 있으니 주의.
 
 # Class Diagram
-
+Setting 객체들을 통해서 Simulation 할 수 있는 옵션을 Unity Scene 상에서 입력 받는다.
+Setting 객체는 입력 받은 값을 통해서 알맞은 Builder를 호출하여 Simulation에 필요한 Object들 (RDWUnit, 
 [See here](/Class%20Diagram%20for%20RDW%20API.pdf)
