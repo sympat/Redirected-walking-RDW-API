@@ -53,9 +53,15 @@ RDW API는 Unity를 통해서 가상 현실 보행 기법인 Redirected walking�
 
 # Class Diagram
 RDWSimulationManager는 Unity Scene 상에서 Simulation에 필요한 여러 옵션들을 입력 받는다.
+
 RDWSimulationManager는 내부적으로 여러개의 Setting 들을 포함하고 있으며, Setting은 입력 받은 값을 통해서 알맞은 Builder를 호출하여 Simulation에 필요한 Object들을 (RedirectedUnit, Space2D 등) 생성하여 반환한다.
+
 RedirectedUnit는 Simulation을 진행을 위한 내부적인 Manager로 볼 수 있으며 실제 공간, 가상 공간, 실제 사용자, 그리고 가상 사용자에 대한 정보를 포함하고 Simulation의 1 step을 진행시키며 State 패턴을 통해서 Simulation이 끝났는지를 매번 검사한다.
+
 Simulation에 필요한 모든 객체는 위에서 바라본 것을 기준으로 2차원 정보인 Object2D 형태로 저장된다. 이것은 위에서 바라본 2차원 정보만으로도 가상 공간 보행 simulation이 동작할 수 있기 때문이다.
+
 Object2D는 Adapter 패턴을 응용해서 Unity에서 제공하는 각 객체의 3차원 transform 변수 중에서 두개의 차원 값을 적절하게 선택해서 반환하거나 관련된 함수를 내부적으로 호출하는 방식으로 구현되었다.
+
 Resetter, Redirector, SimulationController는 각각 Simulation에 사용될 Reset (실제 공간 경계에 부딪혔을 때 어떤 식으로 대응할 지), Redirection (가상 공간 사용자를 어떤 식으로 유도할지), control (사용자가 어떤 방식으로 이동하는지) 의 종류를 결정한다. 
-[See here](/Class%20Diagram%20for%20RDW%20API.pdf)
+
+자세한 구조는 [다음과 같다](/Class%20Diagram%20for%20RDW%20API.pdf).
